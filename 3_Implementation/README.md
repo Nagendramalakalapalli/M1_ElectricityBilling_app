@@ -1,0 +1,3 @@
+## Implemantation
+ * In c program
+ 
