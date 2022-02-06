@@ -1,6 +1,6 @@
 # Description
 
-   The **electricity bill Calculation system** project  is a web application that is developed to automate the billing system of the electricity board.The aim of project is to develop a system that is meant to partially computerize the work performed in the Electricity Board like generating monthly electricity bill, record of consuming unit of energy, store record of the customer and previous unpaid record.It mainly focuses on the calculation of Units consumed during the specified time and the money to be paid to electricity offices.he tool used for writing the code in this project is visual studio code. This project has multi file and multiplatform approach(WSL).
+   The **Domestic Electricity bill Calculation system** project  is a web application that is developed to automate the billing system of the electricity board.The aim of project is to develop a system that is meant to partially computerize the work performed in the Electricity Board like generating monthly electricity bill, record of consuming unit of energy, store record of the customer and previous unpaid record.It mainly focuses on the calculation of Units consumed during the specified time and the money to be paid to electricity offices.he tool used for writing the code in this project is visual studio code. This project has multi file and multiplatform approach(WSL).
  
 
 
@@ -15,21 +15,21 @@
 # Requriements
   
   ## **High Level Requriements**
-   - HLR01 -->	Electricity bill calculation at Urban areas if(units<30)
+   - HLR01 -->	Electricity bill calculation at Rural areas if(units<30)
 
-   - HLR02 -->	Electricity bill calculation at Urban areas if(units>30 && units <100)
+   - HLR02 -->	Electricity bill calculation at Rural areas if(units>30 && units <100)
 
-   - HLR03 -->	Electricity bill calculation at Urban areas if(units>101 && units <200)
+   - HLR03 -->	Electricity bill calculation at Rural areas if(units>101 && units <200)
 
-   - HLR04 -->	Electricity bill calculation at Urban areas if(units<200)	
+   - HLR04 -->	Electricity bill calculation at Rural areas if(units<200)	
 
-   - HLR05 -->	Electricity bill calculation at Rural areas if(units<30)
+   - HLR05 -->	Electricity bill calculation at Urban areas if(units<30)
 
-   - HLR06 -->	Electricity bill calculation at Rural areas if(units>30 && units <100)
+   - HLR06 -->	Electricity bill calculation at Urban areas if(units>30 && units <100)
 
-   - HLR07 -->	Electricity bill calculation at Rural areas if(units>101 && units <200)
+   - HLR07 -->	Electricity bill calculation at Urban areas if(units>101 && units <200)
 
-   - HLR08 -->	Electricity bill calculation at Rural areas if(units<200)	
+   - HLR08 -->	Electricity bill calculation at Urban areas if(units<200)	
 
  ## **Low Level Requriements**
    - LLR01_HLR01 -->	Calculates electricity bill at rural areas	
@@ -51,7 +51,7 @@
 
    * **WHAT**  : Electricity bill calculator.
    * **WHEN**  : For calculating the Electricity Bill.
-   * **WHERE** : Domestic, Industry, Educational Instutions.
+   * **WHERE** : Domestic Area(Rural, Urban)
    * **WHY**   : For Billing purpose.
 
   ## 1H 
