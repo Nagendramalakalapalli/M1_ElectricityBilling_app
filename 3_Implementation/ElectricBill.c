@@ -16,7 +16,7 @@
 #include<string.h>
 
 
-/
+
 struct ElectricBill
 {
 	char Location[100];
@@ -56,33 +56,10 @@ void info()
     
 }
 
-void Urban()
-{
-    float amount=0;
-    E.Units_Consumed;
-    if(E.Units_Consumed <=30 && E.Units_Consumed >= 0)
-    {
-        amount = E.Units_Consumed * 3.25; //cost per unit 3.25 is rupees
-    }
-    else if(E.Units_Consumed >= 31 && E.Units_Consumed <= 100)
-    {
-        amount = E.Units_Consumed * 4.70;
-    }
-    else if(E.Units_Consumed >= 101 && E.Units_Consumed <= 200)
-    {
-        amount = E.Units_Consumed * 6.25;
-    }
-    else
-    {
-        amount = E.Units_Consumed * 7.30;
-    }
-
-    printf(" \t\t\t\t\t\t\t\t\t ****** Domestic Electricity Bill****** \t\t\t\t\t \n\n");
-    printf("Name : %s\n", E.Biller_Name);
-    printf("Service Number : %d\n",E.Service_Number );
-    printf("In Urban, your electricity bill is: %f\n", amount);
-    printf("Units you consumed per month: %d\n", E.Units_Consumed);
-}
+/**
+ * @brief  Rural Area bill calculation according to units consumed
+ * 
+ */
 
 void Rural()
 {
@@ -112,6 +89,44 @@ void Rural()
  
 }
 
+/**
+ * @brief Urban Area bill calculation according to units consumed
+ * 
+ */
+
+void Urban()
+{
+    float amount=0;
+    E.Units_Consumed;
+    if(E.Units_Consumed <=30 && E.Units_Consumed >= 0)
+    {
+        amount = E.Units_Consumed * 3.25; 
+    }
+    else if(E.Units_Consumed >= 31 && E.Units_Consumed <= 100)
+    {
+        amount = E.Units_Consumed * 4.70;
+    }
+    else if(E.Units_Consumed >= 101 && E.Units_Consumed <= 200)
+    {
+        amount = E.Units_Consumed * 6.25;
+    }
+    else
+    {
+        amount = E.Units_Consumed * 7.30;
+    }
+
+    printf(" \t\t\t\t\t\t\t\t\t ****** Domestic Electricity Bill****** \t\t\t\t\t \n\n");
+    printf("Name : %s\n", E.Biller_Name);
+    printf("Service Number : %d\n",E.Service_Number );
+    printf("In Urban, your electricity bill is: %f\n", amount);
+    printf("Units you consumed per month: %d\n", E.Units_Consumed);
+}
+/**
+ * @brief Main Function
+ * 
+ * @return int 
+ */
+
 int main()
 { 
 	info();
@@ -120,8 +135,8 @@ int main()
 	{
 		printf(" \t\t\t\t\t\t  ****** Domestic Electricity Bill****** \t\t\t\t\t\t\t \n");
 		printf("Select enter your choice (1-2):\n");
-		printf("1. Urban\n");
-		printf("2. Rural\n");
+		printf("1. RURAL \n");
+		printf("2. URBAN \n");
 		printf("3. EXIT\n");
 		printf("Electricity Board Helpline: 8435 2340\n");
 		printf("Enter your choice :\n");
@@ -130,10 +145,10 @@ int main()
 		switch (option)
 		{
 		case 1:
-			Urban();
+			Rural();
 			break;
 		case 2:
-			Rural();
+			Urban();
 			break;
 		default:
 			printf("SORRY INVALID CHOICE!\n");
