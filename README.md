@@ -1,4 +1,4 @@
-# M1_ElectricityBilling_app
+# M1_DomesticElectricityBilling_app
 
 ###### Tools Used
 - For [Programing](https://code.visualstudio.com/)
