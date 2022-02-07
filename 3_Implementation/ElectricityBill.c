@@ -11,7 +11,6 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 #include<string.h>
 #include "ElectricityBill.h"
 #include "RuralArea.h"
@@ -48,7 +47,7 @@ void main()
 			printf("SORRY INVALID CHOICE!\n");
 			printf("PLEASE CHOOSE FROM 1 or 2\n");
 		}
-		getch();
+		//getch();
 	} while (option != 3);
 
 }
