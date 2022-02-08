@@ -46,7 +46,8 @@
 
 # SWOT Analysis
   
-  ![Untitled Workspace](https://user-images.githubusercontent.com/82401251/152638428-5d8c1dd8-b49b-4662-92ea-3d6bfc6191a1.jpg)
+  ![SWOT](https://user-images.githubusercontent.com/82401251/152957947-c810e254-23c1-456f-ad05-bb5f5b93df44.png)
+
 
 
 # 4W's & 1H
