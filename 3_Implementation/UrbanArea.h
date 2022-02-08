@@ -1,5 +1,5 @@
-#ifndef __UrbanArea_H__
-#define __UrbanArea_H__
+#ifndef UrbanArea_H_
+#define UrbanArea_H_
 
 void UrbanArea();
 

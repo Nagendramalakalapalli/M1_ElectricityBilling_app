@@ -1,5 +1,5 @@
-#ifndef __RuralArea_H__
-#define __RuralArea_H__
+#ifndef RuralArea_H_
+#define RuralArea_H_
 
 void RuralArea();
 

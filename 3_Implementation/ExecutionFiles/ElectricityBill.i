@@ -2164,7 +2164,7 @@ void main()
    printf("SORRY INVALID CHOICE!\n");
    printf("PLEASE CHOOSE FROM 1 or 2\n");
   }
-  getch();
+
  } while (option != 3);
 
 }

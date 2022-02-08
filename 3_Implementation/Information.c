@@ -23,7 +23,7 @@ void Information()
 	printf("Enter your  Biller Name:\n");
 	scanf("%s", E.Biller_Name);
 	printf("Enter the Mobile Number : \n");
-    scanf("%s", E.Mobile_Number);
+    scanf("%d", E.Mobile_Number);
     printf("Enter Biller Mail ID :\n");
     scanf("%s", E.Biller_Mail);
     printf("Enter the permanent address :\n");

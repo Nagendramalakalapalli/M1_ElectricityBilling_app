@@ -40,6 +40,6 @@ void RuralArea()
     printf("Name : %s\n", E.Biller_Name);
     printf("Service Number : %d\n",E.Service_Number );
     printf("In Rural, your electricity bill is: %f\n", amount);
-    printf("Units you consumed per month: %d\n", E.Units_Consumed);
+    printf("Units you consumed per month: %f\n", E.Units_Consumed);
  
 }
