@@ -36,10 +36,10 @@ void RuralArea()
     {
         amount = E.Units_Consumed * 6.80;
     }
-   printf(" \t\t\t\t\t\t\t ****** Domestic Electricity Bill****** \t\t\t\t\t \n\n");
+    printf(" \t\t\t****** Welcome to Souther Power Distribution company of Andhra Pradesh Limited******\t\t \n\n");
     printf("Name : %s\n", E.Biller_Name);
     printf("Service Number : %d\n",E.Service_Number );
     printf("In Rural, your electricity bill is: %f\n", amount);
-    printf("Units you consumed per month: %f\n", E.Units_Consumed);
+
  
 }
