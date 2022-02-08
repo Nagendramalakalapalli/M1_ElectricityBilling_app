@@ -1,3 +1,8 @@
 ## Implemantation
- * In c program
+ * Prograimg in C language
+ * Executed files 
+ * Tested in Unity
+ * Makefile
+ 
+
  
