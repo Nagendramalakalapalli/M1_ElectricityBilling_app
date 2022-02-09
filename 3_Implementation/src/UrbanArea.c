@@ -21,7 +21,7 @@ void UrbanArea()
 {
     float amount=0;
     E.Units_Consumed;
-    if(E.Units_Consumed <=30 && E.Units_Consumed >= 0)
+    if(E.Units_Consumed>= 0  &&  E.Units_Consumed <=30)
     {
         amount = E.Units_Consumed * 3.25; 
     }

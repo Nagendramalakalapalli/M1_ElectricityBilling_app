@@ -31,7 +31,7 @@ void main()
 		printf("1. RURAL \n");
 		printf("2. URBAN \n");
 		printf("3. EXIT\n");
-		printf("Electricity Board Helpline: 8435 2340\n");
+		printf("Electricity Board Helpline: 1800425155333 (or) 1912.\n");
 		printf("Enter your choice :\n");
 		scanf("%d", &option);
 		system("cls");
@@ -45,7 +45,8 @@ void main()
 			break;
 		default:
 			printf("SORRY INVALID CHOICE!\n");
-			printf("PLEASE CHOOSE FROM 1 or 2\n");
+			printf("Please Contact the helpline");
+			printf("Electricity Board Helpline: 1800425155333 (or) 1912.\n");
 		}
 		//getch();
 	} while (option != 3);

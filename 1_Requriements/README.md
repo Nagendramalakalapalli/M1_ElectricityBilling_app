@@ -37,7 +37,7 @@
 
 # Requriements
   
-  ## **High Level Requriements**
+## **High Level Requriements**
  
 |HLR(ID)|Description|
 --- | --- | 
@@ -50,12 +50,12 @@
 |HLR07| Electricity bill calculation at Urban areas if(units>101 && units <200)|
 |HLR08 |Electricity bill calculation at Urban areas if(units<200)|
 
- ## **Low Level Requriements**
+## **Low Level Requriements**
    
 |LLR(ID)|Description|
 --- | --- | 
-|LLR01_HLR01|	Calculates electricity bill at rural areas|
-|LLR02_HLR02|	Calculates electricity bill at urban areas|	
-|LLR03_HLR03|	Calculates total load at domestics places|
-|LLR04	    | Calculates total unit consumed at domestics places|
+|LLR01|	Calculates electricity bill at rural areas|
+|LLR02|	Calculates electricity bill at urban areas|	
+|LLR03|	Calculates total load at domestics places|
+|LLR04| Calculates total unit consumed at domestics places|
 
