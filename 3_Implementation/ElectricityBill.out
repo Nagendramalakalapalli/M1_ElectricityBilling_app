@@ -2143,7 +2143,7 @@ void main()
  int option;
  do
  {
-  printf(" \t\t\t\t\t\t  ****** Domestic Electricity Bill****** \t\t\t\t\t\t\t \n");
+  printf(" \t\t\t****** Welcome to Souther Power Distribution company of Andhra Pradesh Limited******\t\t \n\n");
   printf("Select enter your choice (1-2):\n");
   printf("1. RURAL \n");
   printf("2. URBAN \n");

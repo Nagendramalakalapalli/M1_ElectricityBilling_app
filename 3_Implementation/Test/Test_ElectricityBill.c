@@ -23,14 +23,14 @@ void tearDown()
 /* Write all the test functions for Rural Area */ 
 void test_RuralArea(void)
  {
-     int units_consumed=50;
+     float units_consumed=50;
   TEST_ASSERT_EQUAL(220, RuralArea(220));
  }
 
 /* Write all the test functions for Urban Area */ 
  void test_UrbanArea(void)
  {
-     int units_consumed=50;
+     float units_consumed=50;
   TEST_ASSERT_EQUAL(235, UrbanArea(235));
  }
 
