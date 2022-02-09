@@ -1,7 +1,7 @@
 #TargetName : Dependencies
 #<TAB>commands
 
-PROJ_NAME= Domestic Electricity Bill
+PROJ_NAME= Domestic_Electricity_Bill
 SRC=src/ElectricityBill.c src/Information.c src/RuralArea.c src/UrbanArea.c src/unity.c
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly

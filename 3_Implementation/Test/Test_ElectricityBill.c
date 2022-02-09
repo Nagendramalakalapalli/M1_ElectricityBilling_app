@@ -4,7 +4,7 @@
 #include "ElectricityBill.h"
 
 
-#define PROJECT_NAME "Domestic Electricity Bill"
+#define PROJECT_NAME "Domestic_Electricity_Bill"
 
 /* Prototypes for all the test functions */
 
