@@ -1,7 +1,7 @@
 
 #include "unity.h"
 #include "unity_internals.h"
-#include "ElectricityBill.h"
+#include "ElectricBill.h"
 
 
 #define PROJECT_NAME "Domestic_Electricity_Bill"
