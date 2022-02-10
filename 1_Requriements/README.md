@@ -34,7 +34,6 @@
    **HOW**    : Calculates the user input as number of loads and gives the output.
 
 
-
 # Requriements
   
 ## **High Level Requriements**
