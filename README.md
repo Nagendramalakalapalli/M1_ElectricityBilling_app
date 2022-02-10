@@ -1,9 +1,5 @@
 # M1_DomesticElectricityBilling_app
 
-###### Tools Used
-- For [Programing](https://code.visualstudio.com/)
-
-- For [Architecture](https://app.diagrams.net/)
-
-- For [UML Diagrams](https://app.creately.com/diagram/create)
+## Build Status
+[![C/C++ CI](https://github.com/Nagendramalakalapalli/M1_ElectricityBilling_app/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Nagendramalakalapalli/M1_ElectricityBilling_app/actions/workflows/c-cpp.yml)
 
