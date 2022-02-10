@@ -48,7 +48,7 @@
 |HLR05| Electricity bill calculation at Urban areas if(units<30)|
 |HLR06| Electricity bill calculation at Urban areas if(units>30 && units <100)|
 |HLR07| Electricity bill calculation at Urban areas if(units>101 && units <200)|
-|HLR08 |Electricity bill calculation at Urban areas if(units<200)|
+|HLR08| Electricity bill calculation at Urban areas if(units<200)|
 
 ## **Low Level Requriements**
    
