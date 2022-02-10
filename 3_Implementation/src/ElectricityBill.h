@@ -1,5 +1,5 @@
-#ifndef ElectricityBill_H_
-#define ElectricityBill_H_
+#ifndef _ElectricityBill_H_
+#define _ElectricityBill_H_
 
 #include<stdio.h>
 #include<stdlib.h>
