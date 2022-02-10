@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "ruralarea.h": "c"
+        "ruralarea.h": "c",
+        "electricbill.h": "c"
     }
 }

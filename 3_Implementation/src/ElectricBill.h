@@ -1,5 +1,5 @@
-#ifndef _ElectricityBill_H_
-#define _ElectricityBill_H_
+#ifndef _ElectricBill_H_
+#define _ElectricBill_H_
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -7,7 +7,7 @@
 
 
 
-struct ElectricBill
+struct ElectricityBill
 {
 	char Location[100];
 	char Biller_Name[30];
@@ -19,5 +19,6 @@ struct ElectricBill
 	
 	
 };
-struct ElectricBill E;
+struct ElectricityBill E;
+
 #endif

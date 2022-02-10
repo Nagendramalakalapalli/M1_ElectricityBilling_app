@@ -85,8 +85,25 @@
 
 
 
+# **Output**
 
 
+![page_1](https://user-images.githubusercontent.com/82401251/153375150-1977183d-ea16-45cd-bc4e-035bf5966c99.png)
+![Rural](https://user-images.githubusercontent.com/82401251/153375123-c185c24c-e406-4709-8b12-30f3417627d3.png)
+![Urban](https://user-images.githubusercontent.com/82401251/153375205-8b0078f2-0176-4d31-afcb-d035d3d657cb.png)
+![Urban out](https://user-images.githubusercontent.com/82401251/153375235-53765530-21c0-43c4-ab24-abd32f13582c.png)
+![Urban_1](https://user-images.githubusercontent.com/82401251/153375267-2e721f89-8904-48aa-afb4-865ea009a39a.png)
+![Urban_1 out](https://user-images.githubusercontent.com/82401251/153375298-3ae94b74-f5c3-4799-8f63-8d4682d4392d.png)
 
+# **Tested Output**
 
-
+|Test ID| HLR | Description| Inputs(Units)|Expected O/P (Amount)| Actual O/P (Amount)|
+--- | --- | --- | --- | --- | --- |
+|TD01|HLR_01|Electricity bill calculation at Rural areas if(units<30)|   25|  78.75| 78.75|
+|TD02|HLR_02|Electricity bill calculation at Rural areas if(units>30 && units <100)|   45|  198.0|  198.0|
+|TD03|HLR_03|Electricity bill calculation at Rural areas if(units>101 && units <200)|  112|  666.4| 666.4|
+|TD04|HLR_04|Electricity bill calculation at Rural areas if(units<200)|   235|  1598.0|  1598.0|
+|TD05|HLR_05|Electricity bill calculation at Urban areas if(units<30)|   15|   48.75|   48.75|
+|TD06|HLR_06|Electricity bill calculation at Urban areas if(units>30 && units <100)|   55|  258.5| 258.5|
+|TD07|HLR_07|Electricity bill calculation at Urban areas if(units>101 && units <200)|   101|   631.25|   631.25|
+|TD08|HLR_08|Electricity bill calculation at Urban areas if(units<200)|   201|   1467.3| 1467.3|

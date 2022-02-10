@@ -12,7 +12,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "ElectricityBill.h"
+#include "ElectricBill.h"
 #include "RuralArea.h"
 #include "UrbanArea.h"
 #include "Information.h"
@@ -48,7 +48,7 @@ void main()
 			printf("Please Contact the helpline");
 			printf("Electricity Board Helpline: 1800425155333 (or) 1912.\n");
 		}
-		//getch();
+	
 	} while (option != 3);
 
 }

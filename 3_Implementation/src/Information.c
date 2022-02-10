@@ -12,8 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <Windows.h>
-#include "ElectricityBill.h"
+#include "ElectricBill.h"
 
 
 void Information()
@@ -27,13 +26,13 @@ void Information()
 	printf("Enter your Service Number:\n");
 	scanf("%d", &E.Service_Number);
 	printf("Enter the Mobile Number : \n");
-    scanf("%s", E.Mobile_Number);
+    scanf("%d", E.Mobile_Number);
     printf("Enter Biller Mail ID :\n");
     scanf("%s", E.Biller_Mail);
     printf("Enter the permanent address :\n");
     scanf("%s", E.Biller_Address);
     printf("Enter Units Consumed:\n");
-	scanf("%d", &E.Units_Consumed);
+	scanf("%f", &E.Units_Consumed);
 	
     
 }
