@@ -1,5 +1,4 @@
-name: Build-linux
-
+name:  C/C++ CI
 on:
   push:
     branches: [ main ]
