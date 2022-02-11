@@ -21,4 +21,4 @@ jobs:
     - name: make test
       run: |
         make test -C MiniProject_C/3_Implementation/
-        valgrind ./MiniProject_C/3_Implementation/build/a.out
+        valgrind ./MiniProject_C/3_Implementation/src/a.out
