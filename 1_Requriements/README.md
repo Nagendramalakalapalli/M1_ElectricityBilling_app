@@ -20,18 +20,9 @@
 
 
 
-# 4W's & 1H
- 
-  ## 4W's
+# 5W's & 1H
 
-   * **WHAT**  : Electricity bill calculator.
-   * **WHEN**  : For calculating the Electricity Bill.
-   * **WHERE** : Domestic Area(Rural, Urban)
-   * **WHY**   : For Billing purpose.
-
-  ## 1H 
-
-   **HOW**    : Calculates the user input as number of loads and gives the output.
+ ![5W1H](https://user-images.githubusercontent.com/82401251/153540939-cbe7fcc7-05d6-4907-9f4c-aa42e90275a0.jpg)
 
 
 # Requriements

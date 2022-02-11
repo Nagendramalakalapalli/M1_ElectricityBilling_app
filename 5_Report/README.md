@@ -19,14 +19,15 @@
   ![Untitled Workspace](https://user-images.githubusercontent.com/82401251/152638428-5d8c1dd8-b49b-4662-92ea-3d6bfc6191a1.jpg)
 
 
-# 4W's & 1H
+# 5W's & 1H
  
-  ## 4W's
+  ## 5W's
 
    * **WHAT**  : Electricity bill calculator.
    * **WHEN**  : For calculating the Electricity Bill.
    * **WHERE** : Domestic Area(Rural, Urban)
    * **WHY**   : For Billing purpose.
+   * **WHO**   : People in domestic Area
 
   ## 1H 
 
