@@ -1,6 +1,6 @@
 # **Test Plan and Output**
 
-## Tested Output
+## High-Level Requriements
 
 |Test ID| HLR | Description| Inputs(Units)|Expected O/P (Amount)| Actual O/P (Amount)|
 --- | --- | --- | --- | --- | --- |
@@ -13,3 +13,12 @@
 |TD07|HLR_07|Electricity bill calculation at Urban areas if(units>101 && units <200)|   101|   631.25|   631.25|
 |TD08|HLR_08|Electricity bill calculation at Urban areas if(units<200)|   201|   1467.3| 1467.3|
 
+
+## Low-Level Requriements
+
+|Test ID| HLR | Description| Inputs|Expected O/P | Actual O/P|
+--- | --- | --- | --- | --- | --- |
+|TD01|LLR01|Calculating Rural areas electricity bill|Choice|Sucess|Sucess|
+|TD02|LLR02|Calculating Urban areas electricity bill|Choice|Sucess|Sucess|
+|TD03|LLR03|Calculating total amount at Domestics places|Choice|Sucess|Sucess|
+|TD04|LLR04|Calculates total unit consumed at Domestics places|Choice|Sucess|Sucess|

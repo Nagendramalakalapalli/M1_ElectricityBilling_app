@@ -21,17 +21,7 @@
 
 # 5W's & 1H
  
-  ## 5W's
-
-   * **WHAT**  : Electricity bill calculator.
-   * **WHEN**  : For calculating the Electricity Bill.
-   * **WHERE** : Domestic Area(Rural, Urban)
-   * **WHY**   : For Billing purpose.
-   * **WHO**   : People in domestic Area
-
-  ## 1H 
-
-   **HOW**    : Calculates the user input as number of loads and gives the output.
+  ![SWOT](https://user-images.githubusercontent.com/82401251/152957947-c810e254-23c1-456f-ad05-bb5f5b93df44.png)
 
 
 
@@ -54,10 +44,10 @@
    
 |LLR(ID)|Description|
 --- | --- | 
-|LLR01|	Calculates electricity bill at rural areas|
-|LLR02|	Calculates electricity bill at urban areas|	
-|LLR03|	Calculates total load at domestics places|
-|LLR04| Calculates total unit consumed at domestics places|
+|LLR01|	Calculating Rural areas electricity bill|
+|LLR02|	Calculating Urban areas electricity bill|	
+|LLR03|	Calculating total amount at Domestics places|
+|LLR04| Calculates total unit consumed at Domestics places|
   
 
 # **Behavior Diagrams**
@@ -85,18 +75,9 @@
 ![Structural](https://user-images.githubusercontent.com/82401251/152933073-3ad005ef-ad1d-470b-b270-ff75a9dd5c3b.png)
 
 
-
-# **Output**
-
-
-![page_1](https://user-images.githubusercontent.com/82401251/153375150-1977183d-ea16-45cd-bc4e-035bf5966c99.png)
-![Rural](https://user-images.githubusercontent.com/82401251/153375123-c185c24c-e406-4709-8b12-30f3417627d3.png)
-![Urban](https://user-images.githubusercontent.com/82401251/153375205-8b0078f2-0176-4d31-afcb-d035d3d657cb.png)
-![Urban out](https://user-images.githubusercontent.com/82401251/153375235-53765530-21c0-43c4-ab24-abd32f13582c.png)
-![Urban_1](https://user-images.githubusercontent.com/82401251/153375267-2e721f89-8904-48aa-afb4-865ea009a39a.png)
-![Urban_1 out](https://user-images.githubusercontent.com/82401251/153375298-3ae94b74-f5c3-4799-8f63-8d4682d4392d.png)
-
 # **Tested Output**
+
+  ## High-Level Requriements
 
 |Test ID| HLR | Description| Inputs(Units)|Expected O/P (Amount)| Actual O/P (Amount)|
 --- | --- | --- | --- | --- | --- |
@@ -108,3 +89,24 @@
 |TD06|HLR_06|Electricity bill calculation at Urban areas if(units>30 && units <100)|   55|  258.5| 258.5|
 |TD07|HLR_07|Electricity bill calculation at Urban areas if(units>101 && units <200)|   101|   631.25|   631.25|
 |TD08|HLR_08|Electricity bill calculation at Urban areas if(units<200)|   201|   1467.3| 1467.3|
+
+## Low-Level Requriements
+
+|Test ID| HLR | Description| Inputs|Expected O/P | Actual O/P|
+--- | --- | --- | --- | --- | --- |
+|TD01|LLR01|Calculating Rural areas electricity bill|Choice|Sucess|Sucess|
+|TD02|LLR02|Calculating Urban areas electricity bill|Choice|Sucess|Sucess|
+|TD03|LLR03|Calculating total amount at Domestics places|Choice|Sucess|Sucess|
+|TD04|LLR04|Calculates total unit consumed at Domestics places|Choice|Sucess|Sucess|
+  
+
+# **Output**
+
+
+![page_1](https://user-images.githubusercontent.com/82401251/153375150-1977183d-ea16-45cd-bc4e-035bf5966c99.png)
+![Rural](https://user-images.githubusercontent.com/82401251/153375123-c185c24c-e406-4709-8b12-30f3417627d3.png)
+![Urban](https://user-images.githubusercontent.com/82401251/153375205-8b0078f2-0176-4d31-afcb-d035d3d657cb.png)
+![Urban out](https://user-images.githubusercontent.com/82401251/153375235-53765530-21c0-43c4-ab24-abd32f13582c.png)
+![Urban_1](https://user-images.githubusercontent.com/82401251/153375267-2e721f89-8904-48aa-afb4-865ea009a39a.png)
+![Urban_1 out](https://user-images.githubusercontent.com/82401251/153375298-3ae94b74-f5c3-4799-8f63-8d4682d4392d.png)
+
