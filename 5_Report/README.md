@@ -31,23 +31,23 @@
  
 |HLR(ID)|Description|
 --- | --- | 
-|HLR01| Electricity bill calculation at Rural areas if(units<30)|
-|HLR02| Electricity bill calculation at Rural areas if(units>30 && units <100)|
-|HLR03| Electricity bill calculation at Rural areas if(units>101 && units <200)|
-|HLR04| Electricity bill calculation at Rural areas if(units<200)|	
-|HLR05| Electricity bill calculation at Urban areas if(units<30)|
-|HLR06| Electricity bill calculation at Urban areas if(units>30 && units <100)|
-|HLR07| Electricity bill calculation at Urban areas if(units>101 && units <200)|
-|HLR08 |Electricity bill calculation at Urban areas if(units<200)|
+|HLR01|	Calculates electricity bill at Rural areas|
+|HLR02|	Calculates electricity bill at Urban areas|	
+|HLR03|	Calculates total Amount at Domestics places|
+|HLR04| Calculates total unit consumed at Domestics places|
 
 ## **Low Level Requriements**
    
 |LLR(ID)|Description|
 --- | --- | 
-|LLR01|	Calculating Rural areas electricity bill|
-|LLR02|	Calculating Urban areas electricity bill|	
-|LLR03|	Calculating total amount at Domestics places|
-|LLR04| Calculates total unit consumed at Domestics places|
+|LLR01_HLR_01| Electricity bill calculation at Rural areas if(units<30)|
+|LLR02_HLR_01| Electricity bill calculation at Rural areas if(units>30 && units <100)|
+|LLR03_HLR_01| Electricity bill calculation at Rural areas if(units>101 && units <200)|
+|LLR04_HLR_01| Electricity bill calculation at Rural areas if(units<200)|	
+|LLR05_HLR_02| Electricity bill calculation at Urban areas if(units<30)|
+|LLR06_HLR_02| Electricity bill calculation at Urban areas if(units>30 && units <100)|
+|LLR07_HLR_02| Electricity bill calculation at Urban areas if(units>101 && units <200)|
+|LLR08_HLR_02| Electricity bill calculation at Urban areas if(units<200)|
   
 
 # **Behavior Diagrams**
@@ -55,12 +55,11 @@
 
 ## **High Level Behavioural Diagram**
 
-![Behavior_Diagram](https://user-images.githubusercontent.com/82401251/152674174-a4aa0208-4849-442a-bad9-49239e5f89c9.jpg)
-
+![Behavior Diagram](https://user-images.githubusercontent.com/82401251/152932754-1ff90616-8002-4c86-bf81-6a85f4682957.jpg)
 
 ## **Low Level Behavioural Diagram**
 
-![Behavior Diagram](https://user-images.githubusercontent.com/82401251/152932754-1ff90616-8002-4c86-bf81-6a85f4682957.jpg)
+![Behavior_Diagram](https://user-images.githubusercontent.com/82401251/152674174-a4aa0208-4849-442a-bad9-49239e5f89c9.jpg)
 
 
 # **Structural Diagram**
@@ -77,20 +76,8 @@
 
 # **Tested Output**
 
-  ## High-Level Requriements
-
-|Test ID| HLR | Description| Inputs(Units)|Expected O/P (Amount)| Actual O/P (Amount)|
---- | --- | --- | --- | --- | --- |
-|TD01|HLR_01|Electricity bill calculation at Rural areas if(units<30)|   25|  78.75| 78.75|
-|TD02|HLR_02|Electricity bill calculation at Rural areas if(units>30 && units <100)|   45|  198.0|  198.0|
-|TD03|HLR_03|Electricity bill calculation at Rural areas if(units>101 && units <200)|  112|  666.4| 666.4|
-|TD04|HLR_04|Electricity bill calculation at Rural areas if(units<200)|   235|  1598.0|  1598.0|
-|TD05|HLR_05|Electricity bill calculation at Urban areas if(units<30)|   15|   48.75|   48.75|
-|TD06|HLR_06|Electricity bill calculation at Urban areas if(units>30 && units <100)|   55|  258.5| 258.5|
-|TD07|HLR_07|Electricity bill calculation at Urban areas if(units>101 && units <200)|   101|   631.25|   631.25|
-|TD08|HLR_08|Electricity bill calculation at Urban areas if(units<200)|   201|   1467.3| 1467.3|
-
-## Low-Level Requriements
+  
+## High-Level Requriements
 
 |Test ID| HLR | Description| Inputs|Expected O/P | Actual O/P|
 --- | --- | --- | --- | --- | --- |
@@ -98,7 +85,21 @@
 |TD02|LLR02|Calculating Urban areas electricity bill|Choice|Sucess|Sucess|
 |TD03|LLR03|Calculating total amount at Domestics places|Choice|Sucess|Sucess|
 |TD04|LLR04|Calculates total unit consumed at Domestics places|Choice|Sucess|Sucess|
-  
+
+
+## Low-Level Requriements
+
+
+|Test ID| LLR | Description| Inputs(Units)|Expected O/P (Amount)| Actual O/P (Amount)|
+--- | --- | --- | --- | --- | --- |
+|TD01|LLR_01_HLR01|Electricity bill calculation at Rural areas if(units<30)|   25|  78.75| 78.75|
+|TD02|LLR_02_HLR01|Electricity bill calculation at Rural areas if(units>30 && units <100)|   45|  198.0|  198.0|
+|TD03|LLR_03_HLR01|Electricity bill calculation at Rural areas if(units>101 && units <200)|  112|  666.4| 666.4|
+|TD04|LLR_04_HLR01|Electricity bill calculation at Rural areas if(units<200)|   235|  1598.0|  1598.0|
+|TD05|LLR_05_HLR02|Electricity bill calculation at Urban areas if(units<30)|   15|   48.75|   48.75|
+|TD06|LLR_06_HLR02|Electricity bill calculation at Urban areas if(units>30 && units <100)|   55|  258.5| 258.5|
+|TD07|LLR_07_HLR02|Electricity bill calculation at Urban areas if(units>101 && units <200)|   101|   631.25|   631.25|
+|TD08|LLR_08_HLR02|Electricity bill calculation at Urban areas if(units<200)|   201|   1467.3| 1467.3|
 
 # **Output**
 
