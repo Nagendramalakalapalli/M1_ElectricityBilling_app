@@ -1,6 +1,6 @@
-# M1_DomesticElectricityBilling_app
+# **M1_DomesticElectricityBilling_app**
 
-
+## Badges
    
 |Build|unity test| cppcheck| Valgrind|Codacy|
 --| --| --|--| --|
