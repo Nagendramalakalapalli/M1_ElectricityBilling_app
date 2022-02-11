@@ -31,21 +31,20 @@
  
 |HLR(ID)|Description|
 --- | --- | 
-|HLR01| Electricity bill calculation at Rural areas if(units<30)|
-|HLR02| Electricity bill calculation at Rural areas if(units>30 && units <100)|
-|HLR03| Electricity bill calculation at Rural areas if(units>101 && units <200)|
-|HLR04| Electricity bill calculation at Rural areas if(units<200)|	
-|HLR05| Electricity bill calculation at Urban areas if(units<30)|
-|HLR06| Electricity bill calculation at Urban areas if(units>30 && units <100)|
-|HLR07| Electricity bill calculation at Urban areas if(units>101 && units <200)|
-|HLR08| Electricity bill calculation at Urban areas if(units<200)|
+|HLR01|	Calculates electricity bill at Rural areas|
+|HLR02|	Calculates electricity bill at Urban areas|	
+|HLR03|	Calculates total Amount at Domestics places|
+|HLR04| Calculates total unit consumed at Domestics places|
 
 ## **Low Level Requriements**
    
 |LLR(ID)|Description|
 --- | --- | 
-|LLR01|	Calculates electricity bill at rural areas|
-|LLR02|	Calculates electricity bill at urban areas|	
-|LLR03|	Calculates total load at domestics places|
-|LLR04| Calculates total unit consumed at domestics places|
-
+|LLR01_HLR_01| Electricity bill calculation at Rural areas if(units<30)|
+|LLR02_HLR_01| Electricity bill calculation at Rural areas if(units>30 && units <100)|
+|LLR03_HLR_01| Electricity bill calculation at Rural areas if(units>101 && units <200)|
+|LLR04_HLR_01| Electricity bill calculation at Rural areas if(units<200)|	
+|LLR05_HLR_02| Electricity bill calculation at Urban areas if(units<30)|
+|LLR06_HLR_02| Electricity bill calculation at Urban areas if(units>30 && units <100)|
+|LLR07_HLR_02| Electricity bill calculation at Urban areas if(units>101 && units <200)|
+|LLR08_HLR_02| Electricity bill calculation at Urban areas if(units<200)|
