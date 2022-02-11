@@ -1,9 +1,9 @@
 # Certificates 
 
-- ###### **Sololearn**
+- **Sololearn**
 
-- ######  **Cisco NDG Linux**
+- **Cisco NDG Linux**
 
-- ######  **Hackerearth Points**
+- **Hackerearth Points**
 
-- ######  **GitHub**
+- **GitHub**
